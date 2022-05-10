@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 10, 2022 at 09:20 AM
+-- Generation Time: May 10, 2022 at 10:25 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.3.28
 
@@ -86,9 +86,9 @@ INSERT INTO `tbl_keahlian` (`id_keahlian`, `nama_skill`) VALUES
 CREATE TABLE `tbl_organisasi` (
   `id_organisasi` int(5) NOT NULL,
   `nama_organisasi` varchar(30) NOT NULL,
-  `jabatan` varchar(30) NOT NULL,
+  `jabatan` varchar(50) NOT NULL,
   `periode` varchar(10) NOT NULL,
-  `deskripsi` varchar(128) NOT NULL
+  `deskripsi` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -96,8 +96,8 @@ CREATE TABLE `tbl_organisasi` (
 --
 
 INSERT INTO `tbl_organisasi` (`id_organisasi`, `nama_organisasi`, `jabatan`, `periode`, `deskripsi`) VALUES
-(1, 'BEM', 'Sekretaris', '2021-2022', ''),
-(2, 'HIMA Teknik Informatika', 'Anggota Bidang Norma & Etika', '2022-2023', '');
+(1, 'BEM', 'Sekretaris', '2021-2022', 'Menjabat sebagai Sekretaris 2 di Badan Eksekutif Mahasiswa Politeknik Kampar.'),
+(2, 'HIMA Teknik Informatika', 'Anggota Koordinator Norma & Etika', '2022-2023', 'Menjabat sebagai Anggota Koordinator Norma & Etika di Himpunan Mahasiswa program studi Teknik Informati Politeknik Kampar.');
 
 --
 -- Indexes for dumped tables
