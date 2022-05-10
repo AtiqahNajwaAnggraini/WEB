@@ -1,0 +1,2 @@
+[Tue Mar 22 11:22:05.357693 2022] [php7:error] [pid 4220:tid 1860] [client 127.0.0.1:52178] PHP Fatal error:  Cannot redeclare Blog::index() in D:\\vhost\\pemrogramanweb.com\\application\\controllers\\Blog.php on line 10
+[Tue Mar 22 11:22:18.254146 2022] [php7:error] [pid 4220:tid 1848] [client 127.0.0.1:52183] PHP Fatal error:  Cannot redeclare Blog::index() in D:\\vhost\\pemrogramanweb.com\\application\\controllers\\Blog.php on line 10
